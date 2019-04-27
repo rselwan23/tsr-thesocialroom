@@ -1,0 +1,11 @@
+{
+  "name": "tsr-the-social-room",
+  "version": "1.0.0",
+  "description": "The social Room is full service advertising agency based in the Metn Region of Lebanon - Get in Touch: 81-861801",
+  "main": "thesocialroom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roger Selwan",
+  "license": "ISC"
+}

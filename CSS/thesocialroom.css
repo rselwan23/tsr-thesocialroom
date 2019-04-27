@@ -1,0 +1,324 @@
+body{
+    font-family: 'Open-sans',sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+#main-header{
+    display: flex;
+    overflow: hidden;
+    height: 8vh;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+#main-header .flag{
+    text-align: end;
+}
+#main-header .flag img{
+    width: 20px;
+}
+#main-header .video{    
+    flex: 4;
+}
+#main-header .video video{
+    width: 100%;
+}
+.head{
+    flex: 1;
+    border: 1px solid red;
+}
+/* End of Header */
+
+/* About Us */
+.container-about{
+    display: flex;
+    overflow: hidden;
+    min-height: 29vh;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f89c1c;
+}
+.about{
+    flex: 1;
+    padding: 3% 20%;
+    justify-content: space-around;
+}
+.about h1{
+    margin: 0;
+    padding-bottom: 2%;
+}
+/* End of About Us */
+
+/* Founder */
+.container-founder{
+    display: flex;
+    overflow: hidden;
+    min-height: 50vh;
+    text-align: center;
+    align-items: flex-start;
+}
+.section-about{
+    flex: 1;
+    justify-content: space-around;
+}
+.text{
+    margin-top: 6%;
+    margin-right: 10%;
+}
+
+.founder img{
+    width: 480px;
+    height: 384px;
+    padding-top: 7.5%;
+}
+/* End of Founder*/
+
+/* Services */
+.services, .services-two{
+    display: flex;
+    overflow: hidden;
+    min-height: 50vh;   
+}
+.ser{
+    flex: 1;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.ser h3{
+    font-size: 30px;
+    margin-top: 200px;
+    color: #f89c1c;
+    z-index: 2;
+}
+.ser p{
+    color: white;
+    z-index: 2;
+    transform: scale(0);
+}
+.ser:hover p{
+    transform: scale(1);    
+}
+.service-1{
+    background: linear-gradient(rgba(225, 112, 85, 0.7),rgba(223, 230, 233,0.7)), url('../Images/digital-marketing.jpg') no-repeat center center;
+    background-size: cover;
+}
+.service-1 h3{
+    color: black;
+}
+.service-2{
+    background:linear-gradient(rgba(45, 52, 54,0.7),rgba(223, 230, 233,0.7)),url('../Images/offline-marketing.jpg') no-repeat center center;
+    background-size: cover;
+   
+}
+.service-3{
+    background:linear-gradient(rgba(225, 112, 85, 0.7),rgba(223, 230, 233,0.7)), url('../Images/web-development.jpg') no-repeat center center;
+    background-size: cover;   
+}
+.service-3 h3{
+    color: black;
+}
+.service-4{
+    background:linear-gradient(rgba(45, 52, 54,0.7),rgba(223, 230, 233,0.7)), url('../Images/social-media-presence.jpg') no-repeat center center;
+    background-size: cover;
+}
+.service-5{
+    background:linear-gradient(rgba(225, 112, 85, 0.7),rgba(223, 230, 233,0.7)), url('../Images/green-screen.jpg')no-repeat center center;
+    background-size: cover;
+}
+.service-5 h3{
+    color: black;
+}
+.service-6{
+    background:linear-gradient(rgba(45, 52, 54,0.7),rgba(223, 230, 233,0.7)), url('../Images/graphic-design.jpg')no-repeat center center;
+    background-size: cover;
+}
+/* End of Services */
+
+/* Reports */
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    background: black;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 63.5vh;
+}
+#right{
+    flex: 1;
+}
+
+#signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+#signin form{
+    width: 60%;
+    padding-bottom: 3rem;
+}
+.logo h1{
+    font-size: 60px;
+    margin-top: 50%;
+    color: #f89c1c;
+}
+#signin .logo{
+    margin-bottom: 4vh;
+}
+
+#signin .logo img{
+    width: 500px;
+}
+
+#signin label{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: #f89c1c;
+}
+
+#signin .text-input{
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    background: #181818;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+}
+
+#signin .primary-btn{
+    width: 107%;
+    
+}
+
+#showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://placeimg.com/1000/1000/nature') no-repeat center center / cover;
+    height: 63.5vh;
+    text-align: center;
+}
+
+#showcase .showcase-text{
+    font-size: 3rem;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+#report-footer{
+    color: #ccc;
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 80%;
+    padding-top: 1rem;
+}
+.primary-btn{
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #f89c1c;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.primary-btn:hover{
+    background-color: #ff7b39;
+
+}
+
+.secondary-btn{
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 1px solid #f4f4f4;
+    border-radius: 2px;
+    font-weight: 500;
+    background: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.secondary-btn:hover{
+    border-color: #ff7b39;
+    color: #ff7b39
+
+}
+/* End of Reports */
+
+/* Social Media */
+.container-social-media{
+    display: flex;
+    overflow: hidden;
+    height: 8vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.fab{
+    font-size: 70px;
+}
+.fa-instagram{
+    color: red;
+}
+.fa-facebook{
+    color: #4267b2;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+.fa-google-plus-square{
+    color: #dd5043;
+}
+/* End of Social Media */
+
+/* Footer */
+footer{
+    display: flex;
+    overflow: hidden;
+    height: 8vh;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+}
+footer marquee{
+    color: white;
+}
+
+/* Media Queries */
+@media (max-width: 480px){
+    .services, .services-two{
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .ser h3{
+        margin-top: 130px;
+    }
+}
